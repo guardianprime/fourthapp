@@ -117,7 +117,8 @@ main {
 
 .icon {
   font-size: 3rem;
-  display: block;
+  display: flex;
+  justify-content: center;
   margin: 10px auto;
   width: 50%;
 }
@@ -214,5 +215,11 @@ main h3 {
   .age p,
   .weight p {
     margin: 0px;
+  }
+
+  .btn-container button {
+    width: 50px;
+    font-size: 1.5rem;
+    border: none;
   }
 }
